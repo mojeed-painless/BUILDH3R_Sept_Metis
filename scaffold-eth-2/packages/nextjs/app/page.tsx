@@ -29,6 +29,9 @@ const Home: NextPage = () => {
           </p>
           <p className="text-center text-lg">
             Edit your smart contract{" "}
+            <p className="text-center text-lg mt-4">
+              <strong style={{ fontSize: '36px', color: '#04D1FF' }}>DEPLOY ON METIS</strong>
+            </p> 
             <code className="italic bg-base-300 text-base font-bold max-w-full break-words break-all inline-block">
               YourContract.sol
             </code>{" "}
